@@ -40,6 +40,14 @@ def dr(n):
         x0 = x0 ^ x  # (x1^x2^...^xn+1)^(1^2^...^n)
 
     print(x0)
+    print("---------------------方法2———————————————————")
+
+    helpter = [0] * n
+    for i in arr:
+        helpter[i-1] = helpter[i-1]+1
+    for a in helpter:
+        if a == 2:
+            print(helpter.index(a)+1)
 
 
 if __name__ == '__main__':
