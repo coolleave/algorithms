@@ -41,13 +41,15 @@ def dr(n):
 
     print(x0)
     print("---------------------方法2———————————————————")
-
-    helpter = [0] * n
+    """
+    暴力去重
+    """
+    helpter = [0] * n  # 初始为n个0的列表
     for i in arr:
-        helpter[i-1] = helpter[i-1]+1
+        helpter[i-1] = helpter[i-1]+1  # 出现一次，值就加1
     for a in helpter:
         if a == 2:
-            print(helpter.index(a)+1)
+            print(helpter.index(a)+1)  # 找到值为2的索引
 
 
 if __name__ == '__main__':
