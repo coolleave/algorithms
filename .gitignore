@@ -82,4 +82,8 @@ fabric.properties
 out
 gen
 /.idea/
-/.idea/
+!/1-100页.xlsx
+!/100-200页.xlsx
+!/200-320页.xlsx
+!/problem.py
+
