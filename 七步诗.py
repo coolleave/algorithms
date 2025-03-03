@@ -1,3 +1,7 @@
+"""
+马跳日，吃豆子，bfs
+"""
+
 from collections import deque
 
 # 读取矩阵大小n m
