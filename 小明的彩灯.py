@@ -1,5 +1,6 @@
 N, Q = map(int, input().split())
 a = list(map(int, input().split()))
+# 多加一位，空出来0
 dx = [0 for i in range(N + 1)]
 for i in range(Q):
     l, r, x = map(int, input().split())
