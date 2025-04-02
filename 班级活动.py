@@ -4,7 +4,7 @@ a = list(map(int, input().split()))
 da = {}
 # 出现次数为1
 flag1 = 0
-# 出现次数为2
+# 出现次数为2或以上
 flag2 = 0
 
 # 设置字典
